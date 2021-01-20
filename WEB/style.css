@@ -1,0 +1,237 @@
+body {
+    font-family: 'Inconsolata', "Verdana";
+    box-sizing: border-box;
+    background-color: #eeeae6;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5em;
+}
+
+.articulo {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    border-top: 5em;
+}
+
+#headerImg {
+    width: 80%;
+}
+
+.fotoDch {
+    position: relative;
+    float: right;
+    right: -3em;
+}
+
+.fotoIzq {
+    position: relative;
+    float: left;
+    left: -3em;
+}
+
+main {
+    text-align: justify;
+}
+
+#headerLandscape {
+    /*background-image: linear-gradient(to top, rgba(238, 234, 230, 1), rgba(255, 255, 255, 0)), url('images/landscape2_1200.jpg');*/
+    background-image: url("images/landscape2_1200.jpg");
+    width: 80%;
+    height: 800px;
+    /* Add the blur effect */
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    /* Full height */
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: #21202B;
+    /*background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(33,32,43,1) 35%, rgba(238,234,230,1) 100%);*/
+}
+
+.navFoot {
+    height: 60px;
+}
+
+#headerBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#headerLogo {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.boton {
+    background-color: #717ea2;
+    border: 1px solid #717ea2;
+    box-shadow: inset 0 -1px 1px 0 #717ea2, inset 0 1px 1px 0 rgba(255, 255, 255, 0.5);
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: .125rem;
+    height: 2.875rem;
+    padding: .5rem 1rem;
+    width: 10rem;
+    transition-property: background-color, border-color, color;
+    transition-duration: .2s;
+    transition-timing-function: ease;
+}
+
+.boton:hover {
+    background-color: #755f82;
+}
+
+.boton:focus {
+    outline: none;
+}
+
+@media (min-width: 600px) {
+    .postcard {
+        width: 400px;
+        border-radius: 5%;
+        box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+/*
+.postcard {
+    width: 400px;
+    border-radius: 5%;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}*/
+
+div p {
+    font-size: 1.3em;
+    line-height: 2em;
+}
+
+.capital::first-letter {
+    font-size: 3em;
+    font-family: "Allura";
+}
+
+.titulos {
+    display: flex;
+    flex-direction: row;
+}
+
+.titulos-color1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulos-color2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulos-color3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.color1 {
+    color: #755f82;
+}
+
+.color2 {
+    background-color: #21202B;
+    color: #EEEAE6;
+}
+
+.color3 {
+    background-color: #717ea2;
+    color: #EEEAE6;
+}
+
+h1 {
+    font-family: "Allura";
+    font-size: 5em;
+}
+
+h2 {
+    font-family: "Allura";
+    font-size: 4em;
+}
+
+h3 {
+    font-family: "Allura";
+    font-size: 3em;
+}
+
+h4 {
+    font-family: "Allura";
+    font-size: 2em;
+}
+
+h5 {
+    font-family: "Allura";
+    font-size: 1em;
+}
+
+.primary a {
+    color: #21202B;
+}
+
+.primary a:hover {
+    color: #EEEAE6;
+}
+
+.secondary a {
+    color: #755f82;
+}
+
+.secondary a:hover {
+    color: #717ea2;
+}
+
+.acent a:hover {
+    color: #EEEAE6;
+}
+
+.acent a:hover {
+    color: #21202B;
+}
+
+div {
+    padding: 0.5em;
+}
+
+.primary {
+    background-color: #755f82;
+    color: #EEEAE6;
+}
+
+.secondary {
+    background-color: #21202b;
+    color: #EEEAE6;
+}
+
+.acent {
+    background-color: #717ea2;
+    color: #EEEAE6;
+}
