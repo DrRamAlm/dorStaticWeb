@@ -4,18 +4,6 @@ body {
     background-color: #eeeae6;
 }
 
-.fotoDch {
-    position: relative;
-    float: right;
-    right: -5vw;
-}
-
-.fotoIzq {
-    position: relative;
-    float: left;
-    left: -5vw;
-}
-
 main {
     text-align: justify;
     padding: 5vw;
@@ -23,16 +11,7 @@ main {
 
 #headerBlock {
     padding: 2em;
-    margin: 5em 2em;
-    
-}
-
-#nvBarfeet {
-    float: right;
-}
-
-#headerImg {
-    width: 80%;
+    margin-top: 2vh;
 }
 
 .navFoot {
@@ -59,14 +38,8 @@ main {
     background-color: #755f82;
 }
 
-
 .boton:focus {
     outline: none;
-}
-
-h1 {
-    font-family: "Allura";
-    font-size: 15vw;
 }
 
 .postcard {
@@ -75,8 +48,16 @@ h1 {
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-h1 {
-    font-family: "Allura";
+.fotoDch {
+    position: relative;
+    float: right;
+    right: -5vw;
+}
+
+.fotoIzq {
+    position: relative;
+    float: left;
+    left: -5vw;
 }
 
 div p {
@@ -89,58 +70,31 @@ div p {
     font-family: "Allura";
 }
 
-.titulos {
-    display: flex;
-    flex-direction: row;
+form {
+    font-family: 'Inconsolata', "Verdana";
 }
 
-.titulos-color1 {
-    display: flex;
-    flex-direction: column;
+h1 {
+    font-family: "Allura";
+    font-size: 15vw;
 }
 
-.titulos-color2 {
-    display: flex;
-    flex-direction: column;
-}
-
-.titulos-color3 {
-    display: flex;
-    flex-direction: column;
-}
-
-.color1 {
-    color: #755f82;
-}
-
-.color2 {
-    background-color: #21202B;
-    color: #EEEAE6;
-}
-
-.color3 {
-    background-color: #717ea2;
-    color: #EEEAE6;
-}
-
-h2 {
+#presentation h1 {
     font-family: "Allura";
     font-size: 4em;
 }
 
-h3 {
+#presentation h2 {
     font-family: "Allura";
     font-size: 3em;
 }
 
-h4 {
-    font-family: "Allura";
-    font-size: 2em;
+#presentation h2 {
+    margin-top: 1em;
 }
 
-h5 {
-    font-family: "Allura";
-    font-size: 1em;
+#presentation h1:nth-of-type(2) {
+    margin-top: 1em;
 }
 
 .primary a {
@@ -159,7 +113,7 @@ h5 {
     color: #717ea2;
 }
 
-.acent a:hover {
+.acent a {
     color: #EEEAE6;
 }
 

@@ -24,18 +24,16 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark flex-column flex-md-row bd-navbar primary fixed-top ">
-
-            <a class="navbar-brand" href="#"><img src="logos/mainlogo_200.png"></a>
+        <nav class="navbar navbar-expand-md navbar-dark primary fixed-top ">
+            <a class=" navbar-brand" href="#"><img src="logos/mainlogo_200.png"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Historia</a>
@@ -59,55 +57,92 @@
                             España
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="/trips/navarra.html">Navarra</a>
+                            <a class="dropdown-item" href="#">Navarra</a>
                             <!--    <a class="dropdown-item" href="#">Asturias</a>
                             <a class="dropdown-item" href="#">Malaga</a>-->
                         </div>
-
                     </li>
-
-
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Europa
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="trips/hamburg.html">Hamburgo</a>
+                            <a class="dropdown-item " href="trips/hamburg.html">Hamburgo</a>
                             <a class="dropdown-item" href="trips/estambul.html">Estambul</a>
                             <!--    <a class="dropdown-item" href="#">Asturias</a>
                             <a class="dropdown-item" href="#">Malaga</a>-->
                         </div>
-
                     </li>
-
-
                 </ul>
-                <nav id ="nvBarfeet" class="collapse navbar-collapse form-inline navbar-right">
-                    
-                    <img class="navFoot " src="logos/navfeet80h.png">
-                </nav>
             </div>
-
         </nav>
-
-
     </header>
 
-
-
-    <main class="container-fluid">
+    <main class="container">
         <div id="headerBlock" class="row">
-            <div class="col-md-8 col-sm-12"></div>
+            <div class="col-12 acent py-4">
+                <img id="headerImg" class="img-fluid" src="logos/mainlogo_1200.png">
 
-            <img id="headerImg" src="logos/mainlogo_1200.png">
-
+            </div>
         </div>
-       
-       
-    
+        <div class="row"> </div>
+        <div class="col-12 secondary">
+            <div id="presentation">
 
+                <h1>Sobre nosotros:</h1>
+                <p class="capital m-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum neque aliquam,
+                    faucibus orci vitae, mollis lorem. Suspendisse vitae hendrerit ipsum. Vivamus in consequat
+                    metus, convallis aliquam eros. Aliquam erat volutpat. Phasellus sed dolor efficitur,
+                    vulputate ligula a, lacinia eros. </p>
+                <h2>Quienes somos:</h2>
+                <p class="capital m-3">Morbi a condimentum ante, ac vestibulum sapien. Cras eget
+                    mauris sit amet ante maximus vestibulum. Cras magna turpis, feugiat eu est et, varius
+                    tincidunt justo. Sed eget dui eget massa fermentum congue eu id eros. Etiam purus velit,
+                    commodo in maximus ut, eleifend vel dolor. Ut feugiat gravida ex, eget pulvinar elit
+                    suscipit sit amet. Sed quis sem eu ante dapibus euismod. Donec vel tortor turpis. Nunc vitae
+                    fermentum mauris.</p>
+                <h2>¿Próximo destino?</h2>
+                <p class="capital m-3">
+                    Duis ut nibh vitae nibh euismod egestas eu et ipsum. Maecenas aliquam ex nec erat porttitor
+                    pretium. Suspendisse ac facilisis diam. Donec quis metus a enim iaculis iaculis auctor quis
+                    orci.
+                </p>
+                <h1>Manda un mensaje:</h1>
+                <form>
+                    <div class="form-row align-items-center">
+                        <div class="col-md-6">
+
+                            <label for="name">Nombre</label>
+                            <input type="text" class="form-control mb-2" id="name" placeholder="Tu nombre">
+                        </div>
+                        <div class="col-md-6">
+
+                            <label for="email">Correo</label>
+                            <input type="text" class="form-control mb-2" id="email" placeholder="Tu correo">
+                        </div>
+                    </div>
+
+                    <div class="form-row align-items-center">
+                        <div class="col">
+                            <label for="bio">Mensaje</label>
+                            <textarea type="text" class="form-control mb-2" id="mensaje"
+                                placeholder="Escribe tu Mensaje" rows="5"></textarea>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="form-row align-items-center">
+                        <div class="col">
+                            <button  class="boton float-right">Enviar</button>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
     </main>
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -117,8 +152,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-
-
 </body>
 
 </html>
